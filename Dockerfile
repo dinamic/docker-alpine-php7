@@ -32,6 +32,7 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositor
         php7-zlib \
         php7-pcntl \
         php7-redis \
+        php7-xdebug \
     && rm -rf /var/cache/apk/*
 
 WORKDIR /var/www/symfony
